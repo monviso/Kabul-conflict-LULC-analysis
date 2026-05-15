@@ -4,7 +4,6 @@ library(data.table)
 #load the data 
 
 s2<-read.csv("~/Kabul_pred.csv")
-s2<-read.csv("C:/Users/mr3882/OneDrive - Northern Arizona University/KABUL_paper_rev/data_to_share/Kabul_pred.csv")
 ##list all variable of which we want to find the best combiantion of four that maximize model's performance
 
 vrb<-c("TOT_IMM","TOT_IMM_l1","TOT_IMM_l2",  
